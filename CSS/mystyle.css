@@ -592,4 +592,12 @@ Mobile Optimisation - iPhone 6
         text-align: center;
         color: white;
     }
+
+    .img1_info p2{
+        padding: 5px;
+    }
+
+    .img1_info slide_one_image{
+        width: 300px;
+    }
 }
