@@ -499,20 +499,19 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
         width: 375px;
     }
 
-    #stats{
-        width:375px;
-    }
-
     .stat{
         width: 20px;
         height: 20px;
         text-align: center;  
-        display: inline-block;
-        width: 24.5%;
+        width: 23.5%;
     }
 
     .stat h1{
         font-size: 20px;
+    }
+
+    .stat h2{
+        font-size: 15px;
     }
 
     h1{
