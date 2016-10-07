@@ -507,6 +507,10 @@ Mobile Optimisation - iPhone 6
         /*border: 2px solid navy;*/
     }
 
+    #logo{
+        background-image: url("../assets/large-v@2x.png");
+    }
+
     #main_content{
         width: 375px;   
     }
