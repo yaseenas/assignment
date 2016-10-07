@@ -504,10 +504,9 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
     }
 
     .stat{
-        width: 92px;
-        height: 92px;
-        text-align: center; 
-        width: 24.5%; 
+        width: 20px;
+        height: 20px;
+        text-align: center;  
         display: inline-block;
     }
 
