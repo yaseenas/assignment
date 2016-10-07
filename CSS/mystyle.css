@@ -575,4 +575,12 @@ Mobile Optimisation - iPhone 6
         left:50%;
         margin-left: -100px;
     }
+
+    #slideshow{
+        /*border: 2px solid navy;*/
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        margin-top:50px;
+    }
 }
