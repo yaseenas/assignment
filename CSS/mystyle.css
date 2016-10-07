@@ -25,6 +25,12 @@ Header Properties
     height: 600px;
 }
 
+/*----------------------------------------------------
+
+Menu Properties
+
+-----------------------------------------------------*/
+
 #menu {
     /*border: 2px solid navy;*/
     position: absolute;
@@ -573,7 +579,7 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
 
 /*-----------------------------------------------
 
-Mobile Optimisation - Test on iPhone 6
+Mobile Optimisation - Tested on iPhone 6
 
 This was the first time I have attempted to 
 optimise a html site for mobile platform.
@@ -609,6 +615,34 @@ the site to run more smoothly on a mobile device.
         text-align:center;
         position: relative;
         height:400px;
+    }
+
+    /*----------------------------------------------------
+
+    Menu Properties
+
+    -----------------------------------------------------*/
+
+    #menu {
+        /*border: 2px solid navy;*/
+        position: absolute;
+        margin-top: 5px;
+        width: 375px;
+        height: 50px;
+        z-index: 1;
+    }
+
+    .navitem {
+        float: left;
+        text-align: center; 
+        line-height: 50px;
+        /*border: 2px solid navy;*/
+        height: 100%;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        font-size: 13px;
+        font-weight: 200;
+        margin-left:15px;
     }
 
     #logo{
