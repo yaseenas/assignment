@@ -511,6 +511,15 @@ Mobile Optimisation - iPhone 6
 
     #content_1{
         width: 375px; 
+        padding: 5px;
+    }
+
+    #content_2{
+        padding:5px;
+    }
+
+    #content_3{
+        padding:5px;
     }
 
     #menu {
