@@ -6,6 +6,12 @@ html, body {
     /*overflow-x: hidden;*/
 }
 
+/*----------------------------------------------------
+
+Header Properties
+
+-----------------------------------------------------*/
+
 #header {
     background-image: url("../assets/top-back.jpg");
     background-position: center;
@@ -18,12 +24,7 @@ html, body {
     position: relative;
     height: 600px;
 }
-.border{
-    border-width:1px;
-    border-style:solid;
-    border-color:red;
-    border: 1px solid red;
-}
+
 #menu {
     /*border: 2px solid navy;*/
     position: absolute;
@@ -66,10 +67,22 @@ html, body {
     margin:auto;
 }
 
+/*----------------------------------------------------
+
+Main Content Properties
+
+-----------------------------------------------------*/
+
 #main_content{
     position: relative;
     /*border: 2px solid navy;*/
 }
+
+/*----------------------------------------------------
+
+Section 1
+
+-----------------------------------------------------*/
 
 #content_1{
     /*border: 2px solid navy;*/
@@ -101,6 +114,14 @@ html, body {
     margin-top: 50px;
 }
 
+/*----------------------------------------------------
+
+Stats properties. 
+
+As you can see I had to apply width: 24.5%, just so 
+each stat could in a row evenly across the page.
+
+-----------------------------------------------------*/
 
 #stats{
     position: relative;
@@ -127,6 +148,12 @@ html, body {
     display: inline-block;
 }
 
+/*----------------------------------------------------
+
+Section 2
+
+-----------------------------------------------------*/
+
 #content_2{
     /*border: 2px solid navy;*/
     position: relative;
@@ -141,6 +168,14 @@ html, body {
 
     margin-top: 100px;
 }
+
+/*----------------------------------------------------
+
+Once again with the icons I had to add some width for
+the separate icons just so they could fit in within the
+page evenly. 
+
+-----------------------------------------------------*/
 
 #icons{
     /*border: 2px solid navy;*/
@@ -166,6 +201,20 @@ html, body {
     width: 25%;
     display: inline-block;
 }
+
+/*----------------------------------------------------
+
+Section 3
+
+For some odd reason the vesta logo would not appear
+infront of the other divs, this is where "z-index" 
+comes in. The z-index controls the stack order of 
+elements, by default its on auto, so it matches the 
+parent property. If you use 1, the element will appear
+on top of another element or -1 for it to appear below 
+the other element.
+
+-----------------------------------------------------*/
 
 #vesta_logo{
     /*border: 2px solid navy;*/
@@ -222,6 +271,12 @@ html, body {
     margin-top:50px;
 }
 
+/*----------------------------------------------------
+
+Section 4
+
+-----------------------------------------------------*/
+
 #content_4{
     /*border: 2px solid navy;*/
     background-image: url("../assets/vesta-back.jpg");
@@ -244,14 +299,11 @@ html, body {
     margin-top: -400px;
 }
 
-#slideshow{
-    /*border: 2px solid navy;*/
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    margin-top:5px;
+/*----------------------------------------------------
 
-}
+Footer Properties
+
+-----------------------------------------------------*/
 
 #footer{
     position: relative;
@@ -295,6 +347,15 @@ html, body {
     margin-left: 5px;
 }
 
+/*----------------------------------------------------
+
+HTML font properties. 
+
+These apply to all text written within the html by 
+default. Unless the properties have been specifically
+changed within the CSS.
+
+-----------------------------------------------------*/
 
 h1{
     font-family: 'Raleway', sans-serif;
@@ -336,6 +397,13 @@ p2{
 
 }
 
+/*----------------------------------------------------
+
+Default button properties which applies to all of 
+Class "Button".
+
+-----------------------------------------------------*/
+
 .button {
     background-color: #95C21F;
     border: none;
@@ -359,12 +427,29 @@ p2{
     color: black;
 }
 
+/*----------------------------------------------------
+
+Slideshow Properties
+
+-----------------------------------------------------*/
+
+#slideshow{
+    /*border: 2px solid navy;*/
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin-top:5px;
+
+}
 
 /*--------------------------------------------------------------
 
 Slideshow was made by AviKohn
 
 I edited it to take out the arrows when selecting different images.
+
+Also because of this I couldnt make the slideshow slide through
+the pictures automatically. 
 
 Link: https://codepen.io/AMKohn/pen/EKJHf
 
@@ -488,13 +573,20 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
 
 /*-----------------------------------------------
 
-Mobile Optimisation - iPhone 6
+Mobile Optimisation - Test on iPhone 6
+
+This was the first time I have attempted to 
+optimise a html site for mobile platform.
+
+The way I have optimise this site was through "media queries".
+
+
 
 ------------------------------------------------*/
 
 @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
+    and (min-device-width: 320px) 
+    and (max-device-width: 736px) 
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) { 
 
