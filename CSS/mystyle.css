@@ -503,6 +503,14 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
         width:375px;
     }
 
+    .stat{
+        width: 92px;
+        height: 92px;
+        text-align: center; 
+        width: 24.5%; 
+        display: inline-block;
+    }
+
     h1{
         font-family: 'Raleway', sans-serif;
         font-size: 50px;
