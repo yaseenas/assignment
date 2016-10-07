@@ -493,13 +493,12 @@ Mobile Optimisation - iPhone 6
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) { 
 
-    body {
+    html, body {
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0px;
         overflow-x: hidden;
-        overflow-y: scroll;
     }
 
     #header{
@@ -519,6 +518,7 @@ Mobile Optimisation - iPhone 6
     }
 
     .stat{
+        display: inline-block;
         width: 20px;
         height: 20px;
         text-align: center;  
