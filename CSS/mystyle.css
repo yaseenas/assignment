@@ -642,6 +642,7 @@ the site to run more smoothly on a mobile device.
         color: white;
         font-size: 13px;
         font-weight: 200;
+        width: 30%;
     }
 
     #logo{
