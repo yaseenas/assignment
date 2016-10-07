@@ -482,22 +482,22 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
 }
 
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2){ 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2){ 
 
     #header{
         width: 375px;
     }
-	  
+
     #main_content{
         width: 375px;   
     }
-  
+
     #content_1{
         width: 375px; 
     }
-	  
+
     #menu {
         /*border: 2px solid navy;*/
         position: absolute;
@@ -506,5 +506,45 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
         width: 375px;
         height: 50px;
         z-index: 1;
+    }
+
+    h1{
+        font-family: 'Raleway', sans-serif;
+        font-size: 50px;
+        font-weight: 300;
+        color: #95C21F;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    h2{
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+        font-weight: 200;
+        color: #95C21F;
+        margin-top: 0;
+    }
+
+    h3{
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 200;
+        color: #95C21F;
+        margin-top: 0;
+    }
+
+    p1{
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        color: black;
+    }
+
+    p2{
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+
     }
 }
