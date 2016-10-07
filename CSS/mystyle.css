@@ -503,8 +503,13 @@ Mobile Optimisation - iPhone 6
         overflow-x: hidden;
     }
 
-    #header{
-        /*border: 2px solid navy;*/
+    #header {
+        background-image: url("../assets/top-back@2x.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        text-align:center;
+        position: relative;
     }
 
     #logo{
