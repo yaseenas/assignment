@@ -616,21 +616,20 @@ Mobile Optimisation - iPhone 6
     }
 
     #contact_us2{
-        width: 48%;
+        width: 50%;
         float: left;
         margin-left: 5px;
     }
 
     #latest_info{
-        width: 48%;
+        width: 50%;
         float: left;
         margin-top: 10px;
     }
 
     #awards{
-        width: 48%;
+        width: 50%;
         float: right;
-        margin-top: 10px;
         margin-left: 1px;
     }
 }
