@@ -485,6 +485,11 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2){ 
+
+    #header{
+        width: 375px;
+    }
+
 	  
     #menu {
         /*border: 2px solid navy;*/
