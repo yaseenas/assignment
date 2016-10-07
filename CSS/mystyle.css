@@ -625,12 +625,13 @@ Mobile Optimisation - iPhone 6
     #latest_info{
         width: 48%;
         float: left;
-        margin-top: 10px;
+        margin-top: 25px;
     }
 
     #awards{
         width: 48%;
         float: right;
         margin-left: 1px;
+        margin-top: 25px;
     }
 }
