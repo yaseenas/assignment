@@ -416,7 +416,7 @@ Link: https://codepen.io/AMKohn/pen/EKJHf
     display: none;
     position: absolute;
 
-	  opacity: 0;
+	opacity: 0;
     z-index: 9;
     cursor: pointer;
 
@@ -643,6 +643,10 @@ Mobile Optimisation - iPhone 6
         margin-top:-300px;
         text-align: center;
         color: white;
+    }
+
+    .img1_info p2{
+        font-size: 10px;
     }
 
     #img_one{
