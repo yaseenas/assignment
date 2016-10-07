@@ -490,6 +490,9 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
     background-image: url("../assets/towan-logo.png");
     background-size: 400px 200px;
     background-repeat: no-repeat;
+
+    height: 200px;
+    width: 100%;
 }
 
 /*-----------------------------------------------
