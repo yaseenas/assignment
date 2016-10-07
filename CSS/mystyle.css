@@ -636,12 +636,13 @@ the site to run more smoothly on a mobile device.
         float: left;
         text-align: center; 
         line-height: 50px;
-        /*border: 2px solid navy;*/
+        border: 2px solid navy;
         height: 100%;
         font-family: 'Raleway', sans-serif;
         color: white;
         font-size: 13px;
         font-weight: 200;
+        margin-left: 
     }
 
     #logo{
