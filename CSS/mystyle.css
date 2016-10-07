@@ -580,6 +580,11 @@ optimise a html site for mobile platform.
 
 The way I have optimise this site was through "media queries".
 
+As this was my first time doing this I targeted only iPhone devices
+running from iPhone 4 to iPhone 6 plus.
+
+The below settings are for both potrail
+
 
 
 ------------------------------------------------*/
@@ -587,8 +592,7 @@ The way I have optimise this site was through "media queries".
 @media only screen 
     and (min-device-width: 320px) 
     and (max-device-width: 736px) 
-    and (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: portrait) { 
+    and (-webkit-min-device-pixel-ratio: 2) { 
 
     html, body {
         width: 100%;
