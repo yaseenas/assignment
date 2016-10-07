@@ -51,10 +51,12 @@ html, body {
 }
 
 #logo {
+
+    background-image: url("../assets/large-v.png")
+
     text-align:center;
     /*border: 2px solid navy;*/
     position: absolute;
-      
     width: 231px;
     height: 256px;
     top:0;
