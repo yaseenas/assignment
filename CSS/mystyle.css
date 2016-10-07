@@ -518,7 +518,8 @@ Mobile Optimisation - iPhone 6
     }
 
     .stat{
-        height: 10px;
+        height: 50px;
+        width: 50px;
         text-align: center;  
         width: 45.5%;
     }
