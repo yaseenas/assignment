@@ -647,7 +647,8 @@ Mobile Optimisation - iPhone 6
 
     #img_one{
         /*border: 2px solid navy;*/
-        max-width: 100px;
+        max-width: 250px;
+        margin-top: 15px;
     }
 
     #footer{
