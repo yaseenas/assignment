@@ -522,6 +522,7 @@ Mobile Optimisation - iPhone 6
         width: 20px;
         height: 20px;
         text-align: center;  
+        width: 23.5%;
     }
 
     .stat h1{
@@ -540,8 +541,6 @@ Mobile Optimisation - iPhone 6
         width: 150px;
         height: 150px;
         text-align: center; 
-        width: 25%;
-        display: inline-block;
     }
 
     h1{
