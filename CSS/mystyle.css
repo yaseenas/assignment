@@ -516,6 +516,7 @@ Mobile Optimisation - iPhone 6
 
     .content_1 h1{
         font-size: 40px;
+        font-weight: bold;
     }
 
     #content_2{
@@ -555,43 +556,22 @@ Mobile Optimisation - iPhone 6
         text-align: center; 
     }
 
-    h1{
-        font-family: 'Raleway', sans-serif;
-        font-size: 50px;
-        font-weight: 300;
-        color: #95C21F;
-        margin-bottom: 0;
-        padding-bottom: 0;
+    #content_4{
+        /*border: 2px solid navy;*/
+        background-image: url("../assets/vesta-back.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 800px;
+        width: 100%;
+        margin-top: -300px;
     }
 
-    h2{
-        font-family: 'Raleway', sans-serif;
-        font-size: 25px;
-        font-weight: 200;
-        color: #95C21F;
-        margin-top: 0;
-    }
-
-    h3{
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        font-weight: 200;
-        color: #95C21F;
-        margin-top: 0;
-    }
-
-    p1{
-        font-family: 'Raleway', sans-serif;
-        font-size: 12px;
-        font-weight: 500;
-        color: black;
-    }
-
-    p2{
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        font-weight: 500;
-        color: white;
-
+    #phone{
+        position: relative;
+        background-image: url("../assets/vesta-phone.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height:200px;
+        width:200px;
     }
 }
