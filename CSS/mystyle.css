@@ -52,7 +52,7 @@ html, body {
 
 #logo {
 
-    background-image: url("../assets/large-v.png")
+    background-image: url("../assets/large-v.png");
 
     text-align:center;
     /*border: 2px solid navy;*/
