@@ -489,7 +489,14 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
     #header{
         width: 375px;
     }
-
+	  
+    #main_content{
+        width: 375px;   
+    }
+  
+    #content_1{
+        width: 375px; 
+    }
 	  
     #menu {
         /*border: 2px solid navy;*/
