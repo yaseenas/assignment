@@ -509,7 +509,10 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
         text-align: center;  
         display: inline-block;
         width: 24.5%;
-        font-size: 15px;
+    }
+
+    .stat h1{
+        font-size: 25px;
     }
 
     h1{
