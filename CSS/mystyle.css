@@ -700,7 +700,7 @@ the site to run more smoothly on a mobile device.
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
 
-        margin-top: 100px;
+        margin-top: 50px;
         z-index: 1;
     }
 
