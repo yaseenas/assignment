@@ -560,9 +560,10 @@ Mobile Optimisation - iPhone 6
     }
 
     .stat{
+        height: 100px;
+        width: 50px;
         text-align: center;  
         width: 100%;
-        max-width: 100px;
     }
 
     .stat h1{
@@ -645,7 +646,8 @@ Mobile Optimisation - iPhone 6
     }
 
     #img_one{
-        border: 2px solid navy;
+        /*border: 2px solid navy;*/
+        max-width: 100px;
     }
 
     #footer{
