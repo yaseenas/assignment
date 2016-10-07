@@ -171,6 +171,7 @@ html, body {
     /*border: 2px solid navy;*/
     background-image: url("../assets/vesta-logo.png");
     background-repeat: no-repeat;
+    background-position-x: 50%;
     text-align:center;
     
     position: relative;
