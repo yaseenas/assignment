@@ -475,7 +475,7 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
 }
 
 #img1_info{
-    border: 2px solid navy;
+    /*border: 2px solid navy;*/
     margin-top:-600px;
     text-align: center;
     color: white;
@@ -584,5 +584,12 @@ Mobile Optimisation - iPhone 6
         height: 400px;
         width: 100%;
         margin-top: 10px;
+    }
+
+    #img1_info{
+        /*border: 2px solid navy;*/
+        margin-top:-300px;
+        text-align: center;
+        color: white;
     }
 }
