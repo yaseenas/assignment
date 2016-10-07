@@ -493,6 +493,8 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
 
     height: 200px;
     width: 100%;
+
+    z-index: 1;
 }
 
 /*-----------------------------------------------
