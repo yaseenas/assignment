@@ -498,7 +498,7 @@ Mobile Optimisation - iPhone 6
         height: 100%;
         margin: 0;
         padding: 0px;
-        overflow-x: hidden;
+        /*overflow-x: hidden;*/
     }
 
     #header{
