@@ -584,6 +584,29 @@ Mobile Optimisation - iPhone 6
         text-align: center; 
     }
 
+    #vesta_logo{
+        /*border: 2px solid navy;*/
+        background-image: url("../assets/vesta-logo@2x.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align:center;
+        
+        position: relative;
+        text-align:center;
+        width:100%;
+        height: 100px;
+        margin:auto;
+        max-width: 1000px;
+        
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+
+        margin-top: 100px;
+        z-index: 1;
+    }
+
+
     #content_4{
         /*border: 2px solid navy;*/
         background-image: url("../assets/vesta-back.jpg");
