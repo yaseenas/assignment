@@ -1,0 +1,482 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    /*overflow-x: hidden;*/
+}
+
+#header {
+    background-image: url("../assets/top-back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    /*border: 2px solid navy;*/
+    /*color: #E54030; */
+    /*font-weight: 100;*/
+    position: relative;
+    height: 600px;
+}
+.border{
+    border-width:1px;
+    border-style:solid;
+    border-color:red;
+    border: 1px solid red;
+}
+#menu {
+    /*border: 2px solid navy;*/
+    position: absolute;
+    right: 1px;
+    margin-top: 5px;
+    width: 500px;
+    height: 50px;
+    z-index: 1;
+}
+
+.navitem {
+    float: left;
+    text-align: center; 
+    line-height: 50px;
+    /*border: 2px solid navy;*/
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+    margin-left:15px;
+}
+.navitem:hover{
+    color: #95C21F;
+}
+
+#logo {
+    text-align:center;
+    /*border: 2px solid navy;*/
+    position: absolute;
+      
+    width: 231px;
+    height: 256px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+
+#main_content{
+    position: relative;
+    /*border: 2px solid navy;*/
+}
+
+#content_1{
+    /*border: 2px solid navy;*/
+    position: relative;
+    text-align:center;
+    
+    width:100%;
+    margin:auto;
+    max-width: 1000px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;   
+}
+
+#button1{
+    /*border: 2px solid navy;*/
+    position: relative;
+    text-align:center;
+    width:100%;
+    margin:auto;
+    max-width: 1000px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: top;
+
+    margin-top: 50px;
+}
+
+
+#stats{
+    position: relative;
+    
+    width:100%;
+    margin:auto;
+    min-height: 50px;
+    max-width: 1000px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    margin-top: 25px;
+
+
+}
+
+.stat{
+    width: 150px;
+    height: 150px;
+    text-align: center; 
+    width: 24.5%; 
+    display: inline-block;
+}
+
+#content_2{
+    /*border: 2px solid navy;*/
+    position: relative;
+    text-align:center;
+    width:100%;
+    margin:auto;
+    max-width: 1000px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    margin-top: 100px;
+}
+
+#icons{
+    /*border: 2px solid navy;*/
+    margin-top: 100px;
+    position: relative;
+    text-align:center;
+    min-height: 50px;
+    width:100%;
+    margin:auto;
+    margin-top: 50px;
+    max-width: 1000px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+.icon{
+    width: 150px;
+    height: 150px;
+    text-align: center; 
+    width: 25%;
+    display: inline-block;
+}
+
+#vesta_logo{
+    /*border: 2px solid navy;*/
+    text-align:center;
+    
+    position: relative;
+    text-align:center;
+    width:100%;
+    height: 100px;
+    margin:auto;
+    max-width: 1000px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    margin-top: 100px;
+    z-index: 1;
+}
+
+#content_3{
+    /*border: 2px solid navy;*/
+    position: relative;
+    text-align:center;
+    width:100%;
+    margin:auto;
+    max-width: 1000px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    z-index: 1;
+}
+
+#button2{
+    /*border: 2px solid navy;*/
+    position: relative;
+    text-align:center;
+    width:100%;
+    margin:auto;
+    max-width: 1000px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: top;
+
+    z-index: 1;
+
+    margin-top:50px;
+}
+
+#content_4{
+    /*border: 2px solid navy;*/
+    background-image: url("../assets/vesta-back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 800px;
+    width: 100%;
+    margin-top: -300px;
+}
+
+#phone{
+    position: relative;
+    background-image: url("../assets/vesta-phone.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:400px;
+    width:400px;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -400px;
+}
+
+#slideshow{
+    /*border: 2px solid navy;*/
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin-top:5px;
+
+}
+
+#footer{
+    position: relative;
+    height: 200px;
+    width:100%;
+    max-width: 1500px;
+    margin:auto;
+
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    margin-top: 20px;
+}
+
+#contact_us{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#contact_us2{
+    width: 20%;
+    float: left;
+    margin-top: 55px;
+    margin-left: 5px;
+}
+
+#latest_info{
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+}
+
+#awards{
+    width: 165px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: #95C21F;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: #95C21F;
+    margin-top: 0;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: #95C21F;
+    margin-top: 0;
+}
+
+p1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+p2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.button {
+    background-color: #95C21F;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/*--------------------------------------------------------------
+
+Slideshow was made by AviKohn
+
+I edited it to take out the arrows when selecting different images.
+
+Link: https://codepen.io/AMKohn/pen/EKJHf
+
+-----------------------------------------------------------------*/
+
+.slides {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,{
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#img1_info{
+    border: 2px solid navy;
+    margin-top:-600px;
+    text-align: center;
+    color: white;
+}
