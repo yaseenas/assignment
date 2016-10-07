@@ -487,10 +487,6 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) { 
 
-    #header{
-        width: 375px;
-    }
-
     #main_content{
         width: 375px;   
     }
@@ -500,13 +496,7 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
     }
 
     #menu {
-        /*border: 2px solid navy;*/
-        position: absolute;
-        right: 1px;
-        margin-top: 5px;
         width: 375px;
-        height: 50px;
-        z-index: 1;
     }
 
     h1{
