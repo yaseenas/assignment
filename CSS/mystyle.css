@@ -640,9 +640,13 @@ Mobile Optimisation - iPhone 6
 
     #img1_info{
         /*border: 2px solid navy;*/
-        margin-top:-500px;
+        margin-top:-300px;
         text-align: center;
         color: white;
+    }
+
+    #img_one{
+        border: 2px solid navy;
     }
 
     #footer{
