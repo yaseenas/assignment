@@ -508,8 +508,8 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,{
         height: 20px;
         text-align: center;  
         display: inline-block;
-        width: 20%;
-        font-size: 25px;
+        width: 24.5%;
+        font-size: 15px;
     }
 
     h1{
