@@ -169,6 +169,9 @@ html, body {
 
 #vesta_logo{
     /*border: 2px solid navy;*/
+    background-image: url("../assets/vesta-logo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     text-align:center;
     
     position: relative;
